@@ -1,0 +1,51 @@
+main {
+  position: relative;
+  top: 60px;
+  padding-bottom: 40px; 
+}
+
+h1 {
+  text-align: center;
+   margin: 20px 0px; 
+}
+
+img {
+  width: 100%; 
+}
+
+.info-img {
+  margin-bottom: 30px;
+}
+  
+.search-list {
+  position: absolute;
+  top: 55px;
+}
+
+.search-list a {
+  display: block;
+  border-bottom: 1px solid #cfcaca;
+  width: 190px;
+  background-color: #f5efef;
+  text-decoration: none;
+  color: black;
+  padding: 5px; 
+}
+  
+footer {
+  margin-top: 30px;
+}
+
+footer .footer {
+  padding: 15px;
+  width: 100%;
+  background-color: #212529;
+  color: white;
+  text-align: center; 
+}
+
+p.navbar-brand.logo {
+  position: relative;
+  top: 6px;
+  left: 15px;
+}

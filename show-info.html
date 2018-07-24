@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Single Show</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">BitShow</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+                    </ul>
+                    <div class="search-dropdown">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <div class="search-list">
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title"></div>
+                <div class="col-6 img"></div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Seasons</h5>
+                            <ul class="seasons-list">
+
+                            </ul>
+                        </div>
+                        <div class="col-12">
+                            <h5>Cast</h5>
+                            <ul class="cast-list">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 show-details"></div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/ui.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        $(mainModule.initSinglePage);
+    </script>
+</body>
+
+</html>
